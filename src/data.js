@@ -28,7 +28,7 @@ export const projects = [
     title: "Github Profile Finder",
     subtitle: "React",
     description:
-      "A small application to search for github profiles, with clickable search bar, that will display the search result in the box bellow, This was my first deployed project",
+      "A small application to search for github profiles, with clickable search bar, that will display the search result in the box bellow. This was my first deployed project",
     image: "./GithubProfile.png",
     link: "https://react-github-profile-finder-ten.vercel.app/",
   },
@@ -36,6 +36,14 @@ export const projects = [
     title: "ChatAPP",
     subtitle: "React and Firebase",
     description: "A real time chat application made using firebase and React",
+    image: "./coming-soon.jpg",
+    link: "Coming soon",
+  },
+  {
+    title: "Your Projects",
+    subtitle: "Jobs you have for me",
+    description:
+      "This is the part where you scroll down and send me an email to contact me!",
     image: "./coming-soon.jpg",
     link: "Coming soon",
   },
