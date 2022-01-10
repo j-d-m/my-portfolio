@@ -1,35 +1,43 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
+    title: "Lo-Fi-Player",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A music player project created using React, to learn about the implementation of React Hooks. Deployed to Vercel, Also it Works, so enjoy some fine music!",
+    image: "./Player.png",
+    link: "https://react-lo-fi-music-player.vercel.app/",
+    repo: "https://github.com/j-d-m/React-Lo-fi-Music-Player",
+  },
+  {
+    title: "Your Weather Search",
+    subtitle: "React and Open Weather api",
+    description:
+      "A project to created to practice the use of an external api, using a dynamic background change depending on the city searched for, in this example you see the weather of my adopted home city.",
+    image: "./cold.png",
+    link: "https://j-d-m.github.io/React-Weather-Search/",
+  },
+  {
+    title: "Your Weather Search",
+    subtitle: "React and Open Weather api",
+    description:
+      "A project to created to practice the use of an external api, using a dynamic background change depending on the city searched for, in this example you see the weather of the city I'm from",
+    image: "./warm.png",
+    link: "https://j-d-m.github.io/React-Weather-Search/",
+  },
+  {
+    title: "Github Profile Finder",
+    subtitle: "React",
+    description:
+      "A small application to search for github profiles, with clickable search bar, that will display the search result in the box bellow, This was my first deployed project",
+    image: "./GithubProfile.png",
+    link: "https://react-github-profile-finder-ten.vercel.app/",
+  },
+  {
+    title: "ChatAPP",
+    subtitle: "React and Firebase",
+    description: "A real time chat application made using firebase and React",
+    image: "./coming-soon.jpg",
+    link: "Coming soon",
   },
 ];
 

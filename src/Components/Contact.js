@@ -29,7 +29,6 @@ export default function Contact() {
           <form
             ref={formRef}
             onSubmit={sendEmail}
-            netlify
             name="contact"
             className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:to-0"
           >
