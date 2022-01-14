@@ -31,6 +31,7 @@ export default function Contact() {
             onSubmit={sendEmail}
             name="contact"
             className="lg:w-full md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:to-0"
+            netlify
           >
             <h1 className="text-white sm:text-4x1 text 3x1 mb-1 font-medium title-font">
               Hire Me

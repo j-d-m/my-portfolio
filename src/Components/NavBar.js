@@ -1,10 +1,11 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 import React from "react";
 
-export default function NavBar() {
+export default function NavBar({ toggle }) {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="bg-gray-800 md:sticky  top-0 z-10">
+      <div className="container hidden mx-auto md:flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           {" "}
           <a href="#about" className="ml-1 text-xl">
@@ -25,6 +26,9 @@ export default function NavBar() {
         >
           Get In Contact <AiOutlineArrowRight className="w-4 h-5 ml-1" />
         </a>
+      </div>
+      <div onClick={toggle} className="md:hidden cursor-pointer">
+        <GiHamburgerMenu className="text-3xl" />
       </div>
     </header>
   );
