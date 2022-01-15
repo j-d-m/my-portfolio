@@ -29,7 +29,7 @@ export default function App() {
   });
 
   return (
-    <main className="text-gray-400 bg-gray-900 body-font scroll-smooth">
+    <main className="scroll-smooth text-gray-400 bg-gray-900 body-font scroll-smooth">
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <About />

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function NavBar({ toggle }) {
   return (
-    <header className="bg-gray-800 md:sticky  top-0 z-10">
+    <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container hidden mx-auto md:flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           {" "}
@@ -27,7 +27,7 @@ export default function NavBar({ toggle }) {
           Get In Contact <AiOutlineArrowRight className="w-4 h-5 ml-1" />
         </a>
       </div>
-      <div onClick={toggle} className="md:hidden cursor-pointer">
+      <div onClick={toggle} className="md:hidden cursor-pointer bg-gray-900">
         <GiHamburgerMenu className="text-3xl" />
       </div>
     </header>
