@@ -45,7 +45,7 @@ export default function Contact() {
               Joshua M.
             </p>
             <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+              <label className="leading-7 text-sm text-gray-400">
                 What Is Your name?
               </label>
               <input
@@ -58,10 +58,7 @@ export default function Contact() {
               />
             </div>
             <div className="relative mb-4">
-              <label
-                htmlFor="email"
-                className="leading-7 text-sm text-gray-400"
-              >
+              <label className="leading-7 text-sm text-gray-400">
                 Best way to get in contact? email?
               </label>
               <input
@@ -74,12 +71,7 @@ export default function Contact() {
               />
             </div>
             <div className="relative mb-4">
-              <label
-                htmlFor="message"
-                className="leading-7 text-sm text-gray-400"
-              >
-                Say Hi!
-              </label>
+              <label className="leading-7 text-sm text-gray-400">Say Hi!</label>
               <textarea
                 name="user_message"
                 id="message"

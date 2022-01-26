@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <div>
         <span className="footer-title">Email</span>
-        <p>j.moir.dev@gmail.com</p>
+        <a href="https://gmail.com">j.moir.dev@gmail.com</a>
       </div>
       <div>
         <span className="footer-title">Address</span>
