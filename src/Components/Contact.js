@@ -5,11 +5,13 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const notify = () => toast.success("Great! Thanks for the message!");
+  // console.log(notify);
   const formRef = useRef();
+  // console.log(formRef);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(formRef.current.value);
     EmailJS.sendForm(
       process.env.REACT_APP_SERVICE_ID,
       process.env.REACT_APP_TEMPLATE_ID,
@@ -17,12 +19,12 @@ export default function Contact() {
       process.env.REACT_APP_USER_ID
     )
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
       })
       .catch((err) => console.log(err));
     formRef.current.reset();
   };
-  console.log(sendEmail);
+  // console.log(formRef.current);
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex md:w-1/2 sm:flex-nowrap flex-wrap">
@@ -91,7 +93,7 @@ export default function Contact() {
             </button>
             <ToastContainer
               position="top-center"
-              autoClose={5000}
+              autoClose={3000}
               hideProgressBar={false}
               newestOnTop={false}
               closeOnClick
