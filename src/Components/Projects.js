@@ -15,9 +15,9 @@ export default function Projects() {
             Projects I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            These projects were made to learn the various languages that they
-            are made in, or to better understand the frameworks or libraries
-            associated with those languages.
+            These projects were made to learn the various technologies that they
+            are built in, or to better understand the frameworks or libraries
+            associated with those technologies.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

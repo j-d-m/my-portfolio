@@ -33,11 +33,12 @@ export const projects = [
     link: "https://react-github-profile-finder-ten.vercel.app/",
   },
   {
-    title: "ChatAPP",
-    subtitle: "React and Firebase",
-    description: "A real time chat application made using firebase and React",
-    image: "/coming-soon.jpg",
-    link: "Coming soon",
+    title: "Staff Room",
+    subtitle: "React",
+    description:
+      "A platform to connect freelance gastronomy staff with companies looking for event personnel or short term cover, and vice versa. ",
+    image: "/Hompage.png",
+    link: "https://staff-room.cyclic.app/#/home",
   },
   {
     title: "Your Projects",
