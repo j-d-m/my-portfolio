@@ -37,7 +37,7 @@ export const projects = [
     subtitle: "React",
     description:
       "A platform to connect freelance gastronomy staff with companies looking for event personnel or short term cover, and vice versa. ",
-    image: "/Hompage.png",
+    image: "/Hompage.webp",
     link: "https://staff-room.cyclic.app/#/home",
   },
   {
