@@ -16,14 +16,30 @@ export default function About() {
           </h2>
 
           <p className="mb-8">
-            Well my name you already know, so heres the rest, I am originally
-            from New Zealand now based in Berlin, Germany. I come from a
-            background of hospitality and restaurant management but decided that
-            it was time for a career change, with a life long interest in the
-            internet and technology I thought "why not give coding a try?", so
-            that's when I jumped into 1.5 year long Boot Camp. I am becoming
-            more inspired everyday by the challenge of learning skills for the
-            future and the joy of writing clean code.
+            Hi there! 👋 My name you already know, so here&apos;s the rest of
+            the story. After spending 13 incredible years in Berlin, Germany,
+            I&apos;ve returned to my roots in New Zealand. With nearly two
+            decades of experience in various roles within the hospitality
+            industry, including restaurant management, I decided it was time for
+            a career change. A lifelong interest in the internet and technology
+            led me to think, "Why not give coding a try?" And so, I jumped into
+            an intensive 1.5-year-long full-stack web development boot camp.
+            Throughout my career, I've demonstrated a passion for
+            problem-solving and a commitment to delivering high-quality
+            solutions. From managing teams to organizing large-scale events,
+            I&apos;ve honed my ability to communicate effectively, adapt
+            quickly, and thrive in fast-paced settings. Now, I'm eager to
+            leverage this rich skill set in dynamic and collaborative software
+            development environments. During my boot camp, I gained hands-on
+            experience with a range of technologies, including JavaScript,
+            HTML5, CSS3, React, Node.js, and MongoDB. The challenge of learning
+            new skills and the joy of writing clean code inspire me every day.
+            I&apos;m dedicated to ongoing self-teaching and self-development,
+            regularly seeking out new resources, courses, and projects to expand
+            my skills and stay updated on the latest industry trends and best
+            practices. My goal is to contribute my diverse background and
+            unwavering dedication to excellence to innovative software projects
+            and teams. Let's build something amazing together! 🚀
           </p>
           <div className="flex justify-center">
             <button className="btn btn-outline my-5 mx-2">
