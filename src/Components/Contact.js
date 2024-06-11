@@ -19,7 +19,7 @@ export default function Contact() {
       process.env.REACT_APP_USER_ID
     )
       .then((result) => {
-        // console.log(result.text);
+        console.log(result.text);
       })
       .catch((err) => console.log(err));
     formRef.current.reset();

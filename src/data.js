@@ -33,7 +33,7 @@ export const projects = [
     link: "https://react-github-profile-finder-ten.vercel.app/",
   },
   {
-    title: "Staff Room",
+    title: "Staff Room (Down for REFACTORING)",
     subtitle: "React",
     description:
       "A platform to connect freelance gastronomy staff with companies looking for event personnel or short term cover, and vice versa. ",
