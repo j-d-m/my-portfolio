@@ -63,4 +63,9 @@ export const skills = [
   "Express",
   "mySQL",
   "MongoDB",
+  "Git",
+  "GitHub",
+  "PHP",
+  "MQTT",
+  "IoT"
 ];

@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
       <div>
         <span className="footer-title">Address</span>
-        <p>13189, Berlin, Germany.</p>
+        <p>North Canterbury, New Zealand.</p>
       </div>
 
       <div>
